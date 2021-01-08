@@ -8,7 +8,7 @@ bulboff.addEventListener('click', () => {
       bulboff.style.backgroundImage = tablica[i];
       i = i + 1;
       body.style.background = 'linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,219,0,1) 50%, rgba(255,255,255,1) 100%)';
-      text.style.textShadow = '-9px -4px 2px rgba(128,128,128,0.83)'
+      text.style.textShadow = '2px 3px 3px #E33212'
    } else if (i === 1) {
 
       bulboff.style.backgroundImage = tablica[i]
